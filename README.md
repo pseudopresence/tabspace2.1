@@ -4,7 +4,7 @@ TabSpace port for Twiddler 2.1
 The TabSpace Layout
 -------------------
 
-The TabSpace layout was originally written for an earlier version of the Twiddler, with a different set of modifier keys and a different config file format. It is intended to optimise access to frequent characters and character combinations. This port is based on the following documents.
+The TabSpace layout was originally written by Brandon Craig Rhodes for an earlier version of the Twiddler, with a different set of modifier keys and a different config file format. It is intended to optimise access to frequent characters and character combinations. This port is based on the following documents.
 
 Description: http://rhodesmill.org/brandon/projects/tabspace-guide.pdf
 Reference: http://rhodesmill.org/brandon/projects/tabspace-ref.pdf
@@ -26,6 +26,6 @@ Caveats
 
 * The Twiddler 2.1 mouse mode, upgrade, and mass storage keys are unchanged
 
-* I have only tested this layout on my Win 7 desktop at the moment, but I found that pressing the TabSpace letter pair chords (e.g. O OOMM "th") would change my windows input language, and the triple chords (e.g. O OMMM "the") would open the start menu. I am assuming for now that this is a bug with the Twiddler 2.1. I have included versions without the pairs and triples for now.
+* Twiddler firmware versions earlier than 122 have some issues with the multi-character chords. To upgrade your firmware, see handykey.com/support.html
 
-* I haven't defined chords yet for Application, GUI Left, GUI Right, which I assume are equivalent to the Windows keys and aren't included in the original TabSpace layout. I will add them next time I revise these layouts.
+* I haven't defined chords yet for Application, GUI Left, GUI Right, which I assume are equivalent to the Windows keys and aren't included in the original TabSpace layout. I am still investigating how these work with the Twiddler 2.1
